@@ -371,7 +371,7 @@ do
     ToggleTab:Toggle({
         Title = "Activate Paintball crash",
         Type = "Checkbox",
-  https://raw.githubusercontent.com/NexiakScripts/NexiaksHub/refs/heads/main/NexiaksUniversal  })
+    })
     
     ToggleTab:Space()
     
