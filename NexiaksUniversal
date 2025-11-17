@@ -62,9 +62,9 @@ local Window = WindUI:CreateWindow({
     
     KeySystem = {
         Title = "Key System   |  WindUI Example",
-        Note = "Key System. Key: 2646492",
+        Note = "Key System. Buy Key: https://discord.gg/2y8Y45puP7",
         KeyValidator = function(EnteredKey)
-            return EnteredKey == "1234" -- if key == "1234" then return true else return false end
+            return EnteredKey == "O63tywZ0t9FS0DahPEUL" -- if key == "O63tywZ0t9FS0DahPEUL" then return true else return false end
         end
     }
 })
@@ -350,20 +350,20 @@ end
 -- */  Toggle Tab  /* --
 do
     local ToggleTab = ElementsSection:Tab({
-        Title = "Toggle",
+        Title = "All Sab Exploits in one",
         Icon = "arrow-left-right"
     })
     
     
     ToggleTab:Toggle({
-        Title = "Toggle",
+        Title = "Desync without cloner",
     })
     
     ToggleTab:Space()
     
     ToggleTab:Toggle({
-        Title = "Paintball Crash",
-        Desc = "Toggle example"
+        Title = "Desync",
+        Desc = "Need a Cloner"
     })
     
     ToggleTab:Space()
@@ -385,12 +385,12 @@ do
     
     
     ToggleTab:Toggle({
-        Title = "Desync (patched) ",
+        Title = "Insta steal (patched) ",
         Locked = true,
     })
     
     ToggleTab:Toggle({
-        Title = "Laser Gun exploit",
+        Title = "Laser Gun exploit (patched) ",
         Desc = "Toggle example",
         Locked = true,
     })
