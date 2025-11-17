@@ -26,7 +26,7 @@ WindUI:Popup({
     Content = "Hello!",
     Buttons = {
         {
-            Title = "Hahaha",
+            Title = "Hi",
             Icon = "bird",
         }
     }
@@ -36,7 +36,7 @@ WindUI:Popup({
 
 -- */  Window  /* --
 local Window = WindUI:CreateWindow({
-    Title = "Nexiaks hub  |  WindUI Example",
+    Title = "Nexiaks hub",
     Author = "by Nexiak",
     Folder = "ftgshub",
     Icon = "sfsymbols:appleLogo",
@@ -377,7 +377,7 @@ do
     
     ToggleTab:Toggle({
         Title = "Activate Dupe",
-        Desc = "Checkbox example",
+        Desc = "Sometimes works so its kinda patched",
         Type = "Checkbox",
     })
     
@@ -400,7 +400,7 @@ end
 -- */  Button Tab  /* --
 do
     local ButtonTab = ElementsSection:Tab({
-        Title = "Button",
+        Title = "Money Changer (Cooming Soon) ",
         Icon = "mouse-pointer-click",
     })
     
@@ -527,7 +527,7 @@ end
 -- */  Dropdown Tab  /* --
 do
     local DropdownTab = ElementsSection:Tab({
-        Title = "Dropdown",
+        Title = "Brainrot Spanwer (Cooming Soon) ",
         Icon = "logs",
     })
     
